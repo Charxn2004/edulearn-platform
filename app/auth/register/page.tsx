@@ -22,11 +22,7 @@ export default function RegisterPage() {
     e.preventDefault()
     setIsLoading(true)
 
-    // Simulate registration
-    setTimeout(() => {
-      setIsLoading(false)
-      router.push("/dashboard")
-    }, 1500)
+    // Replace with actual registration logic
   }
 
   return (

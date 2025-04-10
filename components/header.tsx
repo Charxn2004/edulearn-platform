@@ -79,6 +79,10 @@ export default function Header() {
             </Button>
           )}
 
+          <Button variant="ghost" size="icon" onClick={handleLogout} className="hidden md:flex">
+            <LogOut className="h-5 w-5" />
+            <span className="sr-only">Logout</span>
+          </Button>
           <ThemeToggle />
 
           <div className="hidden md:flex gap-2">
@@ -134,10 +138,6 @@ export default function Header() {
                     )}
                   </DropdownMenuGroup>
                   <DropdownMenuSeparator />
-                  <DropdownMenuItem onClick={handleLogout}>
-                    <LogOut className="mr-2 h-4 w-4" />
-                    <span>Log out</span>
-                  </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
             ) : (

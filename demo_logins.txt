@@ -1,0 +1,13 @@
+Demo Logins:
+
+**Admin:**
+  Email: AdminDemo789!
+  Password: AdminDemo789!
+
+**Teacher:**
+  Email: teacher.demo@example.com
+  Password: TeacherDemo123!
+
+**Student:**
+  Email: student.demo@example.com
+  Password: StudentDemo456!

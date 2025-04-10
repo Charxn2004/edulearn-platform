@@ -66,22 +66,7 @@ export default function TeacherLoginPage() {
       return
     }
 
-    setIsLoading(true)
-
-    // Simulate authentication
-    setTimeout(() => {
-      setIsLoading(false)
-
-      // For demo purposes, always succeed
-      toast({
-        title: "Login Successful",
-        description: "Welcome back to the instructor portal.",
-      })
-
-      router.push("/dashboard/instructor")
-    }, 1500)
-  }
-
+    setIsLoading(true)  }
   return (
     <div className="container flex h-screen w-screen flex-col items-center justify-center">
       <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[400px]">
